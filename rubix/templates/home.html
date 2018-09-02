@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+
+<canvas id="open_cube" width="450" height="600"
+style="border:2px solid #000000;" pa>
+Your browser does not support the canvas element.
+</canvas>
+
+<script id="W-face" >
+var canvas = document.getElementById("open_cube");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#feffe1";
+ctx.fillRect(150,0,150,150);
+</script>
+
+<script id="R-face" >
+var canvas = document.getElementById("open_cube");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(150,150,150,150);
+</script>
+
+<script id="Y-face" >
+var canvas = document.getElementById("open_cube");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FFFF00";
+ctx.fillRect(150,300,150,150);
+</script>
+
+
+<script id="W-face" >
+var canvas = document.getElementById("open_cube");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#ff7a00";
+ctx.fillRect(150,450,150,150);
+</script>
+
+<script id="G-face" >
+var canvas = document.getElementById("open_cube");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#00ff00";
+ctx.fillRect(0,150,150,150);
+</script>
+
+<script id="B-face" >
+var canvas = document.getElementById("open_cube");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#0000ff";
+ctx.fillRect(300,150,150,150);
+</script>
+
+
+</body>
+</html>
